@@ -1,0 +1,24 @@
+body {
+    background-image: url("/images/fondoAbout.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    text-align: center; 
+    color:black;
+}
+p {
+    font-size: 1.2em;
+    color:blanchedalmond;
+    text-align: center;
+    width: 85%;
+}
+#about {
+    display: flex;
+    justify-content: space-between;
+}
+.pOne {
+    width: 22%;
+}
+.pTwo {
+    width: 33%;
+}

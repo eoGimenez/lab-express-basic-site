@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+}
+#listas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+span {
+    color: aliceblue;
+}

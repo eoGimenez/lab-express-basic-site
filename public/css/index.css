@@ -1,0 +1,45 @@
+body {
+    background-image: url("/images/fondoTwo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    text-align: center; 
+    color:black;
+}
+h1 {
+    font-size: 3em;
+}
+#nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn {
+    margin: 2px;
+    padding: 1px 4px;
+    font-size: 1.2em;;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.btn:hover {
+    background-color: green;
+    color: black;
+}
+/* #imagenIndex {
+    width: 450px;
+    height: 450px;
+} */
+.article {
+    display: flex;
+    align-items: flex-end;
+    height: 80%;
+    justify-content: flex-end;
+}
+p {
+    font-size: 1.5em;
+    color:blanchedalmond;
+    text-align: center;
+    width: 33%;
+}
